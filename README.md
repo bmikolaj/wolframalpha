@@ -55,7 +55,7 @@ You may also query for simply the pods which have 'Result' titles;
 ##Authors
 [Brian Mikolajczyk](https://github.com/p014k), brianm12@gmail.com
 
-[jaraco](http://bitbucket.org/jaraco/wolframalpha)
+[Jason R. Coombs](http://bitbucket.org/jaraco), jaraco@jaraco.com
 
 ##Legal
 Copyright (c) 2014, Brian Mikolajczyk, brianm12@gmail.com
