@@ -64,14 +64,18 @@ class Client(object):
     def __init__(self, app_id):
         self.app_id = app_id
 
-    def query(self, query):
+    def query(self, query, assumption=None):
         """
         Query Wolfram|Alpha with query using the v2.0 API
         """
-        query = urllib.parse.urlencode(dict(
-            input=query,
-            appid=self.app_id,
-        ))
+        data = {
+                 'input': query,
+                 'appid': self.app_id
+               }
+        if assumption is not None:
+            data.update({'a': assumption})
+
+        query = urllib.parse.urlencode(data)
         url = 'http://api.wolframalpha.com/v2/query?' + query
         resp = urllib.request.urlopen(url)
         assert resp.headers.get_content_type() == 'text/xml'
