@@ -73,7 +73,7 @@ class Client(object):
                  'appid': self.app_id
                }
         if assumption is not None:
-            data.update({'a': assumption})
+            data.update({'assumption': assumption})
 
         query = urllib.parse.urlencode(data)
         url = 'http://api.wolframalpha.com/v2/query?' + query
