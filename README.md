@@ -1,4 +1,4 @@
-#WolframAlpha Client
+# WolframAlpha Client
 v1.3
 
 Python Client built against the [Wolfram|Alpha](http://wolframalpha.com)
@@ -6,7 +6,7 @@ v2.0 API.
 
 Original project is hosted on [bitbucket](http://bitbucket.org/jaraco/wolframalpha).
 
-##Installation
+## Installation
 
 * Clone git archive via the following command; 
   
@@ -16,7 +16,7 @@ Original project is hosted on [bitbucket](http://bitbucket.org/jaraco/wolframalp
   
   `sudo python setup.sh install`
 
-##Usage
+## Usage
 
 Basic usage is pretty simple. Create the client with your App ID (request from
 Wolfram Alpha);
@@ -43,7 +43,7 @@ You may also query for simply the pods which have 'Result' titles;
 
     print(next(res.results).text)
 
-##Changelog
+## Changelog
 * v1.3 (21 October 2014)
 
   Added assumption option to query
@@ -52,17 +52,17 @@ You may also query for simply the pods which have 'Result' titles;
 
   Release by [jaraco](http://bitbucket.org/jaraco/wolframalpha) forked
 
-##Authors
+## Authors
 [Brian Mikolajczyk](https://github.com/p014k), brianm12@gmail.com
 
 [Jason R. Coombs](http://bitbucket.org/jaraco), jaraco@jaraco.com
 
-##Legal
+## Legal
 Copyright (c) 2014, Brian Mikolajczyk, brianm12@gmail.com
 
-###Licence
+### Licence
 Please see file LICENCE.
 
-###Copying
+### Copying
 Please see file COPYING.
 
