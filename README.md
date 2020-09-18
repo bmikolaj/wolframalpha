@@ -10,7 +10,7 @@ Original project is hosted on [bitbucket](http://bitbucket.org/jaraco/wolframalp
 
 * Clone git archive via the following command; 
   
-  `git clone https://github.com/p014k/wolframalpha.git wolframalpha`
+  `git clone https://github.com/bmikolaj/wolframalpha.git wolframalpha`
 * Change directories via `cd wolframalpha`
 * Run the following command to install;
   
@@ -53,7 +53,7 @@ You may also query for simply the pods which have 'Result' titles;
   Release by [jaraco](http://bitbucket.org/jaraco/wolframalpha) forked
 
 ## Authors
-[Brian Mikolajczyk](https://github.com/p014k), brianm12@gmail.com
+[Brian Mikolajczyk](https://github.com/bmikolaj), brianm12@gmail.com
 
 [Jason R. Coombs](http://bitbucket.org/jaraco), jaraco@jaraco.com
 
